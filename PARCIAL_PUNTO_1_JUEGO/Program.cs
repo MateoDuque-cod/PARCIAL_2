@@ -39,7 +39,7 @@ public class Program
 
             }
 
-            Console.WriteLine("¡inicio del juego!");
+            Console.WriteLine("¡EL JUEGO HA INICIADO!");
 
             while (continuar)
             {
@@ -76,18 +76,16 @@ public class Program
                     Console.WriteLine("FIN DEL JUEGO, GRACIAS POR JUGAR!");
 
                     continuar = false;
-                }*/
-                
-            
+                }*/      
             }
-        Console.WriteLine("Desea seguir jugando?  si para continuar, no para finalizar");
-        salir = Console.ReadLine().ToUpper();
+             Console.WriteLine("Desea seguir jugando?  si para continuar, no para finalizar");
+              salir = Console.ReadLine().ToUpper();
 
-        if (salir != "SI")
-        {
+             if (salir != "SI")
+             {
             Console.WriteLine("FIN DEL JUEGO, GRACIAS POR JUGAR!");
 
             continuar = false;
-        }
+             }
     }
 }
